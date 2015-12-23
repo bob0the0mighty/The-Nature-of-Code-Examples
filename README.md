@@ -1,6 +1,6 @@
-# The-Nature-of-Code-Examples
+# The Nature of Code Unity Examples
 
-This is the repository for example [Processing](http://processing.org) code from [The Nature of Code book](http://natureofcode.com/).  If you are looking for the book's raw content (text, illustrations, images, CSS, etc.), have a look at [The Nature of Code repo](https://github.com/shiffman/The-Nature-of-Code).
+This is an effort to to translate the processing example code from [The Nature of Code book](http://natureofcode.com/) into [Unity3d](http://unity3d.com/).  If you are looking for the book's raw content (text, illustrations, images, CSS, etc.), have a look at [The Nature of Code repo](https://github.com/shiffman/The-Nature-of-Code).
 
 ## Ports to other Languages
 
