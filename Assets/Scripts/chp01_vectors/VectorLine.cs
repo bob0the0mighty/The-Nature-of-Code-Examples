@@ -11,6 +11,8 @@ using System.Collections;
 /// </summary>
 public class VectorLine : MonoBehaviour {
 
+    public float magnitude { get; private set; }
+
     private Vector3 center = Vector3.zero;
     private LineRenderer lr;
 
@@ -32,5 +34,7 @@ public class VectorLine : MonoBehaviour {
         Vector3 worldPoint = Camera.main.ScreenToWorldPoint(threeDMousePoint);
 
         lr.SetPosition(1, worldPoint);
+
+        magnitude = worldPoint.magnitude;
 	}
 }
